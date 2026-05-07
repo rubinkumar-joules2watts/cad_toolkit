@@ -1,0 +1,10 @@
+RGCO OVERLAY COMPARISON REPORT
+==================================================
+Part      : PN-001
+Comparing : Rev A  →  Rev B
+Date      : 2026-05-06 11:50:18
+Result    : NO CHANGE
+Changes   : 0 (0 modified, 0 added, 0 removed)
+==================================================
+
+No differences found between revisions.

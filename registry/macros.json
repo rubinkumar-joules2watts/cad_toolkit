@@ -1,0 +1,70 @@
+{
+  "macros": [
+    {
+      "id": "bom_export",
+      "label": "Export BOM",
+      "category": "Export",
+      "platform": "generic",
+      "path": "macros/bom_export.py",
+      "entry": "run",
+      "description": "Exports Bill of Materials from assembly tree to Excel",
+      "params": {
+        "assembly_name": "string",
+        "output_format": "string"
+      }
+    },
+    {
+      "id": "standards_check",
+      "label": "Check Drawing Standards",
+      "category": "Validation",
+      "platform": "generic",
+      "path": "macros/standards_check.py",
+      "entry": "run",
+      "description": "Validates drawing against company CAD standards",
+      "params": {
+        "drawing_name": "string",
+        "standard": "string"
+      }
+    },
+    {
+      "id": "rgco_comparison",
+      "label": "RGCO Overlay Comparison",
+      "category": "Comparison",
+      "platform": "generic",
+      "path": "macros/rgco_comparison.py",
+      "entry": "run",
+      "description": "Compares two revisions of a part and highlights geometry deltas",
+      "params": {
+        "part_name": "string",
+        "revision_a": "string",
+        "revision_b": "string"
+      }
+    },
+    {
+      "id": "layer_audit",
+      "label": "Layer Name Audit",
+      "category": "Validation",
+      "platform": "generic",
+      "path": "macros/layer_audit.py",
+      "entry": "run",
+      "description": "Checks all layer names conform to naming convention",
+      "params": {
+        "drawing_name": "string"
+      }
+    },
+    {
+      "id": "batch_rename",
+      "label": "Batch Part Rename",
+      "category": "Automation",
+      "platform": "generic",
+      "path": "macros/batch_rename.py",
+      "entry": "run",
+      "description": "Batch renames parts using a prefix/suffix rule",
+      "params": {
+        "prefix": "string",
+        "suffix": "string",
+        "target_category": "string"
+      }
+    }
+  ]
+}

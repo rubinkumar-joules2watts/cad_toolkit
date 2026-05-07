@@ -1,0 +1,9 @@
+BATCH RENAME REPORT
+========================================
+Category : Automation
+Prefix   : 'REV_' | Suffix: ''
+Parts    : 3
+
+  template_base                  →  REV_template_base
+  frame_weld                     →  REV_frame_weld
+  bracket_left                   →  REV_bracket_left

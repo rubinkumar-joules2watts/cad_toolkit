@@ -1,0 +1,34 @@
+CAD DRAWING STANDARDS CHECK REPORT
+==================================================
+Drawing  : DRW-ENGINE-001
+Date     : 2026-05-07 11:43:59
+Result   : FAIL
+Passed   : 15 | Errors: 4 | Warnings: 0
+==================================================
+
+ERRORS:
+  [ERROR]   Title block: 'checked_by' must not be empty
+           → Field 'checked_by' is empty or missing
+  [ERROR]   Layer naming: must be UPPERCASE
+           → Layer 'notes' is not uppercase
+  [ERROR]   Layer naming: must be UPPERCASE
+           → Layer 'BoundingBox' is not uppercase
+  [ERROR]   Annotations: no unattached annotations allowed
+           → 2 unattached annotations found
+
+PASSED CHECKS:
+  [OK]      Title block: 'drawn_by'
+  [OK]      Title block: 'part_number'
+  [OK]      Title block: 'revision'
+  [OK]      Title block: 'date'
+  [OK]      Title block: 'title'
+  [OK]      Title block: 'scale'
+  [OK]      Title block: 'units'
+  [OK]      Layer 'GEOMETRY'
+  [OK]      Layer 'DIMENSIONS'
+  [OK]      Layer 'HIDDEN'
+  [OK]      Layer 'CENTERLINES'
+  [OK]      View 'Front View'
+  [OK]      View 'Side View'
+  [OK]      View 'Section A-A'
+  [OK]      Annotations: GD&T symbols

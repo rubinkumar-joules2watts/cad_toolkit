@@ -1,0 +1,259 @@
+2026-05-06 11:50:09 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-06 11:50:12 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-06 11:50:12 | INFO     | core.executor - Batch execution started — 5 macros
+2026-05-06 11:50:12 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-06 11:50:12 | INFO     | core.executor - Running macro: [Export] Export BOM
+2026-05-06 11:50:13 | INFO     | macro_module - BOM Export started for assembly: ENGINE_BLOCK_v3
+2026-05-06 11:50:13 | SUCCESS  | macro_module - BOM exported: 10 parts, 77.1kg total → outputs/BOM_ENGINE_BLOCK_v3_20260506_115013.xlsx
+2026-05-06 11:50:13 | SUCCESS  | core.executor - Macro 'bom_export' completed in 358ms
+2026-05-06 11:50:13 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-06 11:50:13 | INFO     | core.executor - Running macro: [Validation] Check Drawing Standards
+2026-05-06 11:50:13 | INFO     | macro_module - Standards check started for: DRW-ENGINE-001
+2026-05-06 11:50:13 | SUCCESS  | macro_module - Standards check complete: FAIL — 4 errors, 0 warnings
+2026-05-06 11:50:13 | SUCCESS  | core.executor - Macro 'standards_check' completed in 4ms
+2026-05-06 11:50:13 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-06 11:50:13 | INFO     | core.executor - Running macro: [Comparison] RGCO Overlay Comparison
+2026-05-06 11:50:13 | INFO     | macro_module - RGCO Comparison: PN-001 Rev B → Rev C
+2026-05-06 11:50:13 | SUCCESS  | macro_module - RGCO comparison complete: 8 changes found
+2026-05-06 11:50:13 | SUCCESS  | core.executor - Macro 'rgco_comparison' completed in 2ms
+2026-05-06 11:50:13 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-06 11:50:13 | INFO     | core.executor - Running macro: [Validation] Layer Name Audit
+2026-05-06 11:50:13 | INFO     | macro_module - Layer audit started: DRW-ENGINE-001
+2026-05-06 11:50:13 | SUCCESS  | macro_module - Layer audit complete: 2 violations
+2026-05-06 11:50:13 | SUCCESS  | core.executor - Macro 'layer_audit' completed in 1ms
+2026-05-06 11:50:13 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-06 11:50:13 | INFO     | core.executor - Running macro: [Automation] Batch Part Rename
+2026-05-06 11:50:13 | INFO     | macro_module - Batch rename: category=Automation, prefix='REV_', suffix=''
+2026-05-06 11:50:13 | SUCCESS  | macro_module - Batch rename complete: 3 parts renamed
+2026-05-06 11:50:13 | SUCCESS  | core.executor - Macro 'batch_rename' completed in 1ms
+2026-05-06 11:50:13 | INFO     | core.executor - Batch complete — 5/5 passed
+2026-05-06 11:50:18 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-06 11:50:18 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-06 11:50:18 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-06 11:50:18 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-06 11:50:18 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-06 11:50:18 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-06 11:50:18 | INFO     | core.executor - Running macro: [Export] Export BOM
+2026-05-06 11:50:18 | INFO     | macro_module - BOM Export started for assembly: ENGINE_BLOCK_v3
+2026-05-06 11:50:18 | SUCCESS  | macro_module - BOM exported: 10 parts, 77.1kg total → outputs/BOM_ENGINE_BLOCK_v3_20260506_115018.xlsx
+2026-05-06 11:50:18 | SUCCESS  | core.executor - Macro 'bom_export' completed in 235ms
+2026-05-06 11:50:18 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-06 11:50:18 | INFO     | core.executor - Running macro: [Export] Export BOM
+2026-05-06 11:50:18 | INFO     | macro_module - BOM Export started for assembly: GEARBOX_ASSY
+2026-05-06 11:50:18 | SUCCESS  | macro_module - BOM exported: 5 parts, 16.4kg total → outputs/BOM_GEARBOX_ASSY_20260506_115018.xlsx
+2026-05-06 11:50:18 | SUCCESS  | core.executor - Macro 'bom_export' completed in 9ms
+2026-05-06 11:50:18 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-06 11:50:18 | INFO     | core.executor - Running macro: [Export] Export BOM
+2026-05-06 11:50:18 | INFO     | macro_module - BOM Export started for assembly: FAKE_ASSEMBLY
+2026-05-06 11:50:18 | ERROR    | core.executor - Macro 'bom_export' failed after 0ms — Assembly 'FAKE_ASSEMBLY' not found. Available: ['ENGINE_BLOCK_v3', 'GEARBOX_ASSY']
+2026-05-06 11:50:18 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-06 11:50:18 | INFO     | core.executor - Running macro: [Validation] Check Drawing Standards
+2026-05-06 11:50:18 | INFO     | macro_module - Standards check started for: DRW-GEARBOX-002
+2026-05-06 11:50:18 | SUCCESS  | macro_module - Standards check complete: PASS — 0 errors, 0 warnings
+2026-05-06 11:50:18 | SUCCESS  | core.executor - Macro 'standards_check' completed in 2ms
+2026-05-06 11:50:18 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-06 11:50:18 | INFO     | core.executor - Running macro: [Validation] Check Drawing Standards
+2026-05-06 11:50:18 | INFO     | macro_module - Standards check started for: DRW-ENGINE-001
+2026-05-06 11:50:18 | SUCCESS  | macro_module - Standards check complete: FAIL — 4 errors, 0 warnings
+2026-05-06 11:50:18 | SUCCESS  | core.executor - Macro 'standards_check' completed in 1ms
+2026-05-06 11:50:18 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-06 11:50:18 | INFO     | core.executor - Running macro: [Comparison] RGCO Overlay Comparison
+2026-05-06 11:50:18 | INFO     | macro_module - RGCO Comparison: PN-001 Rev B → Rev C
+2026-05-06 11:50:18 | SUCCESS  | macro_module - RGCO comparison complete: 8 changes found
+2026-05-06 11:50:18 | SUCCESS  | core.executor - Macro 'rgco_comparison' completed in 1ms
+2026-05-06 11:50:18 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-06 11:50:18 | INFO     | core.executor - Running macro: [Comparison] RGCO Overlay Comparison
+2026-05-06 11:50:18 | INFO     | macro_module - RGCO Comparison: PN-001 Rev A → Rev B
+2026-05-06 11:50:18 | SUCCESS  | macro_module - RGCO comparison complete: 0 changes found
+2026-05-06 11:50:18 | SUCCESS  | core.executor - Macro 'rgco_comparison' completed in 1ms
+2026-05-06 11:50:18 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-06 11:50:18 | INFO     | core.executor - Running macro: [Validation] Layer Name Audit
+2026-05-06 11:50:18 | INFO     | macro_module - Layer audit started: DRW-ENGINE-001
+2026-05-06 11:50:18 | SUCCESS  | macro_module - Layer audit complete: 2 violations
+2026-05-06 11:50:18 | SUCCESS  | core.executor - Macro 'layer_audit' completed in 1ms
+2026-05-06 11:50:18 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-06 11:50:18 | INFO     | core.executor - Running macro: [Automation] Batch Part Rename
+2026-05-06 11:50:18 | INFO     | macro_module - Batch rename: category=Automation, prefix='REV_', suffix='_2024'
+2026-05-06 11:50:18 | SUCCESS  | macro_module - Batch rename complete: 3 parts renamed
+2026-05-06 11:50:18 | SUCCESS  | core.executor - Macro 'batch_rename' completed in 1ms
+2026-05-06 11:50:18 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-06 11:50:18 | ERROR    | core.executor - Macro 'does_not_exist' failed after 0ms — Macro 'does_not_exist' not found. Available: ['bom_export', 'standards_check', 'rgco_comparison', 'layer_audit', 'batch_rename']
+2026-05-06 11:50:18 | INFO     | core.executor - Batch execution started — 3 macros
+2026-05-06 11:50:18 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-06 11:50:18 | INFO     | core.executor - Running macro: [Export] Export BOM
+2026-05-06 11:50:18 | INFO     | macro_module - BOM Export started for assembly: ENGINE_BLOCK_v3
+2026-05-06 11:50:18 | SUCCESS  | macro_module - BOM exported: 10 parts, 77.1kg total → outputs/BOM_ENGINE_BLOCK_v3_20260506_115018.xlsx
+2026-05-06 11:50:18 | SUCCESS  | core.executor - Macro 'bom_export' completed in 10ms
+2026-05-06 11:50:18 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-06 11:50:18 | INFO     | core.executor - Running macro: [Validation] Check Drawing Standards
+2026-05-06 11:50:18 | INFO     | macro_module - Standards check started for: DRW-ENGINE-001
+2026-05-06 11:50:18 | SUCCESS  | macro_module - Standards check complete: FAIL — 4 errors, 0 warnings
+2026-05-06 11:50:18 | SUCCESS  | core.executor - Macro 'standards_check' completed in 1ms
+2026-05-06 11:50:18 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-06 11:50:18 | INFO     | core.executor - Running macro: [Validation] Layer Name Audit
+2026-05-06 11:50:18 | INFO     | macro_module - Layer audit started: DRW-ENGINE-001
+2026-05-06 11:50:18 | SUCCESS  | macro_module - Layer audit complete: 2 violations
+2026-05-06 11:50:18 | SUCCESS  | core.executor - Macro 'layer_audit' completed in 1ms
+2026-05-06 11:50:18 | INFO     | core.executor - Batch complete — 3/3 passed
+2026-05-06 11:50:18 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-06 11:50:18 | INFO     | core.executor - Running macro: [Export] Export BOM
+2026-05-06 11:50:18 | INFO     | macro_module - BOM Export started for assembly: ENGINE_BLOCK_v3
+2026-05-06 11:50:18 | SUCCESS  | macro_module - BOM exported: 10 parts, 77.1kg total → outputs/BOM_ENGINE_BLOCK_v3_20260506_115018.xlsx
+2026-05-06 11:50:18 | SUCCESS  | core.executor - Macro 'bom_export' completed in 10ms
+2026-05-07 11:40:06 | INFO     | cad_toolkit - Registry loaded — 5 macros found
+2026-05-07 11:40:10 | INFO     | cad_toolkit - Registry loaded — 5 macros found
+2026-05-07 11:40:10 | INFO     | cad_toolkit - Running macro: [Export] Export BOM
+2026-05-07 11:40:10 | INFO     | cad_toolkit - BOM Export started for assembly: ENGINE_BLOCK_v3
+2026-05-07 11:40:10 | INFO     | cad_toolkit - BOM exported: 10 parts, 77.1kg total → outputs/BOM_ENGINE_BLOCK_v3_20260507_114010.xlsx
+2026-05-07 11:40:10 | INFO     | cad_toolkit - Macro 'bom_export' completed in 235ms
+2026-05-07 11:40:16 | INFO     | cad_toolkit - Registry loaded — 5 macros found
+2026-05-07 11:40:16 | INFO     | cad_toolkit - Running macro: [Validation] Check Drawing Standards
+2026-05-07 11:40:16 | INFO     | cad_toolkit - Standards check started for: DRW-GEARBOX-002
+2026-05-07 11:40:16 | INFO     | cad_toolkit - Standards check complete: PASS — 0 errors, 0 warnings
+2026-05-07 11:40:16 | INFO     | cad_toolkit - Macro 'standards_check' completed in 9ms
+2026-05-07 11:40:48 | INFO     | cad_toolkit - Registry loaded — 5 macros found
+2026-05-07 11:40:48 | INFO     | cad_toolkit - Batch execution started — 5 macros
+2026-05-07 11:40:48 | INFO     | cad_toolkit - Registry loaded — 5 macros found
+2026-05-07 11:40:48 | INFO     | cad_toolkit - Running macro: [Export] Export BOM
+2026-05-07 11:40:49 | INFO     | cad_toolkit - BOM Export started for assembly: ENGINE_BLOCK_v3
+2026-05-07 11:40:49 | INFO     | cad_toolkit - BOM exported: 10 parts, 77.1kg total → outputs/BOM_ENGINE_BLOCK_v3_20260507_114049.xlsx
+2026-05-07 11:40:49 | INFO     | cad_toolkit - Macro 'bom_export' completed in 243ms
+2026-05-07 11:40:49 | INFO     | cad_toolkit - Registry loaded — 5 macros found
+2026-05-07 11:40:49 | INFO     | cad_toolkit - Running macro: [Validation] Check Drawing Standards
+2026-05-07 11:40:49 | INFO     | cad_toolkit - Standards check started for: DRW-ENGINE-001
+2026-05-07 11:40:49 | INFO     | cad_toolkit - Standards check complete: FAIL — 4 errors, 0 warnings
+2026-05-07 11:40:49 | INFO     | cad_toolkit - Macro 'standards_check' completed in 3ms
+2026-05-07 11:40:49 | INFO     | cad_toolkit - Registry loaded — 5 macros found
+2026-05-07 11:40:49 | INFO     | cad_toolkit - Running macro: [Comparison] RGCO Overlay Comparison
+2026-05-07 11:40:49 | INFO     | cad_toolkit - RGCO Comparison: PN-001 Rev B → Rev C
+2026-05-07 11:40:49 | INFO     | cad_toolkit - RGCO comparison complete: 8 changes found
+2026-05-07 11:40:49 | INFO     | cad_toolkit - Macro 'rgco_comparison' completed in 2ms
+2026-05-07 11:40:49 | INFO     | cad_toolkit - Registry loaded — 5 macros found
+2026-05-07 11:40:49 | INFO     | cad_toolkit - Running macro: [Validation] Layer Name Audit
+2026-05-07 11:40:49 | INFO     | cad_toolkit - Layer audit started: DRW-ENGINE-001
+2026-05-07 11:40:49 | INFO     | cad_toolkit - Layer audit complete: 2 violations
+2026-05-07 11:40:49 | INFO     | cad_toolkit - Macro 'layer_audit' completed in 1ms
+2026-05-07 11:40:49 | INFO     | cad_toolkit - Registry loaded — 5 macros found
+2026-05-07 11:40:49 | INFO     | cad_toolkit - Running macro: [Automation] Batch Part Rename
+2026-05-07 11:40:49 | INFO     | cad_toolkit - Batch rename: category=Automation, prefix='REV_', suffix=''
+2026-05-07 11:40:49 | INFO     | cad_toolkit - Batch rename complete: 3 parts renamed
+2026-05-07 11:40:49 | INFO     | cad_toolkit - Macro 'batch_rename' completed in 1ms
+2026-05-07 11:40:49 | INFO     | cad_toolkit - Batch complete — 5/5 passed
+2026-05-07 11:42:05 | INFO     | cad_toolkit - Registry loaded — 5 macros found
+2026-05-07 11:42:23 | INFO     | cad_toolkit - Registry loaded — 5 macros found
+2026-05-07 11:42:23 | INFO     | cad_toolkit - Running macro: [Export] Export BOM
+2026-05-07 11:42:24 | INFO     | cad_toolkit - BOM Export started for assembly: ENGINE_BLOCK_v3
+2026-05-07 11:42:24 | INFO     | cad_toolkit - BOM exported: 10 parts, 77.1kg total → outputs/BOM_ENGINE_BLOCK_v3_20260507_114224.xlsx
+2026-05-07 11:42:24 | INFO     | cad_toolkit - Macro 'bom_export' completed in 193ms
+2026-05-07 11:42:40 | INFO     | cad_toolkit - Registry loaded — 5 macros found
+2026-05-07 11:42:40 | INFO     | cad_toolkit - Batch execution started — 5 macros
+2026-05-07 11:42:40 | INFO     | cad_toolkit - Registry loaded — 5 macros found
+2026-05-07 11:42:40 | INFO     | cad_toolkit - Running macro: [Export] Export BOM
+2026-05-07 11:42:40 | INFO     | cad_toolkit - BOM Export started for assembly: ENGINE_BLOCK_v3
+2026-05-07 11:42:40 | INFO     | cad_toolkit - BOM exported: 10 parts, 77.1kg total → outputs/BOM_ENGINE_BLOCK_v3_20260507_114240.xlsx
+2026-05-07 11:42:40 | INFO     | cad_toolkit - Macro 'bom_export' completed in 194ms
+2026-05-07 11:42:40 | INFO     | cad_toolkit - Registry loaded — 5 macros found
+2026-05-07 11:42:40 | INFO     | cad_toolkit - Running macro: [Validation] Check Drawing Standards
+2026-05-07 11:42:40 | INFO     | cad_toolkit - Standards check started for: DRW-ENGINE-001
+2026-05-07 11:42:40 | INFO     | cad_toolkit - Standards check complete: FAIL — 4 errors, 0 warnings
+2026-05-07 11:42:40 | INFO     | cad_toolkit - Macro 'standards_check' completed in 2ms
+2026-05-07 11:42:40 | INFO     | cad_toolkit - Registry loaded — 5 macros found
+2026-05-07 11:42:40 | INFO     | cad_toolkit - Running macro: [Comparison] RGCO Overlay Comparison
+2026-05-07 11:42:40 | INFO     | cad_toolkit - RGCO Comparison: PN-001 Rev B → Rev C
+2026-05-07 11:42:40 | INFO     | cad_toolkit - RGCO comparison complete: 8 changes found
+2026-05-07 11:42:40 | INFO     | cad_toolkit - Macro 'rgco_comparison' completed in 1ms
+2026-05-07 11:42:40 | INFO     | cad_toolkit - Registry loaded — 5 macros found
+2026-05-07 11:42:40 | INFO     | cad_toolkit - Running macro: [Validation] Layer Name Audit
+2026-05-07 11:42:40 | INFO     | cad_toolkit - Layer audit started: DRW-ENGINE-001
+2026-05-07 11:42:40 | INFO     | cad_toolkit - Layer audit complete: 2 violations
+2026-05-07 11:42:40 | INFO     | cad_toolkit - Macro 'layer_audit' completed in 1ms
+2026-05-07 11:42:40 | INFO     | cad_toolkit - Registry loaded — 5 macros found
+2026-05-07 11:42:40 | INFO     | cad_toolkit - Running macro: [Automation] Batch Part Rename
+2026-05-07 11:42:40 | INFO     | cad_toolkit - Batch rename: category=Automation, prefix='REV_', suffix=''
+2026-05-07 11:42:40 | INFO     | cad_toolkit - Batch rename complete: 3 parts renamed
+2026-05-07 11:42:40 | INFO     | cad_toolkit - Macro 'batch_rename' completed in 1ms
+2026-05-07 11:42:40 | INFO     | cad_toolkit - Batch complete — 5/5 passed
+2026-05-07 11:43:22 | INFO     | cad_toolkit - Registry loaded — 5 macros found
+2026-05-07 11:43:22 | INFO     | cad_toolkit - Batch execution started — 5 macros
+2026-05-07 11:43:22 | INFO     | cad_toolkit - Registry loaded — 5 macros found
+2026-05-07 11:43:22 | INFO     | cad_toolkit - Running macro: [Export] Export BOM
+2026-05-07 11:43:22 | INFO     | cad_toolkit - BOM Export started for assembly: ENGINE_BLOCK_v3
+2026-05-07 11:43:22 | INFO     | cad_toolkit - BOM exported: 10 parts, 77.1kg total → outputs/BOM_ENGINE_BLOCK_v3_20260507_114322.xlsx
+2026-05-07 11:43:22 | INFO     | cad_toolkit - Macro 'bom_export' completed in 239ms
+2026-05-07 11:43:22 | INFO     | cad_toolkit - Registry loaded — 5 macros found
+2026-05-07 11:43:22 | INFO     | cad_toolkit - Running macro: [Validation] Check Drawing Standards
+2026-05-07 11:43:22 | INFO     | cad_toolkit - Standards check started for: DRW-ENGINE-001
+2026-05-07 11:43:22 | INFO     | cad_toolkit - Standards check complete: FAIL — 4 errors, 0 warnings
+2026-05-07 11:43:22 | INFO     | cad_toolkit - Macro 'standards_check' completed in 3ms
+2026-05-07 11:43:22 | INFO     | cad_toolkit - Registry loaded — 5 macros found
+2026-05-07 11:43:22 | INFO     | cad_toolkit - Running macro: [Comparison] RGCO Overlay Comparison
+2026-05-07 11:43:22 | INFO     | cad_toolkit - RGCO Comparison: PN-001 Rev B → Rev C
+2026-05-07 11:43:22 | INFO     | cad_toolkit - RGCO comparison complete: 8 changes found
+2026-05-07 11:43:22 | INFO     | cad_toolkit - Macro 'rgco_comparison' completed in 1ms
+2026-05-07 11:43:22 | INFO     | cad_toolkit - Registry loaded — 5 macros found
+2026-05-07 11:43:22 | INFO     | cad_toolkit - Running macro: [Validation] Layer Name Audit
+2026-05-07 11:43:22 | INFO     | cad_toolkit - Layer audit started: DRW-ENGINE-001
+2026-05-07 11:43:22 | INFO     | cad_toolkit - Layer audit complete: 2 violations
+2026-05-07 11:43:22 | INFO     | cad_toolkit - Macro 'layer_audit' completed in 1ms
+2026-05-07 11:43:22 | INFO     | cad_toolkit - Registry loaded — 5 macros found
+2026-05-07 11:43:22 | INFO     | cad_toolkit - Running macro: [Automation] Batch Part Rename
+2026-05-07 11:43:22 | INFO     | cad_toolkit - Batch rename: category=Automation, prefix='REV_', suffix=''
+2026-05-07 11:43:22 | INFO     | cad_toolkit - Batch rename complete: 3 parts renamed
+2026-05-07 11:43:22 | INFO     | cad_toolkit - Macro 'batch_rename' completed in 1ms
+2026-05-07 11:43:22 | INFO     | cad_toolkit - Batch complete — 5/5 passed
+2026-05-07 11:43:25 | INFO     | cad_toolkit - Registry loaded — 5 macros found
+2026-05-07 11:43:25 | INFO     | cad_toolkit - Batch execution started — 5 macros
+2026-05-07 11:43:25 | INFO     | cad_toolkit - Registry loaded — 5 macros found
+2026-05-07 11:43:25 | INFO     | cad_toolkit - Running macro: [Export] Export BOM
+2026-05-07 11:43:25 | INFO     | cad_toolkit - BOM Export started for assembly: ENGINE_BLOCK_v3
+2026-05-07 11:43:25 | INFO     | cad_toolkit - BOM exported: 10 parts, 77.1kg total → outputs/BOM_ENGINE_BLOCK_v3_20260507_114325.xlsx
+2026-05-07 11:43:25 | INFO     | cad_toolkit - Macro 'bom_export' completed in 208ms
+2026-05-07 11:43:25 | INFO     | cad_toolkit - Registry loaded — 5 macros found
+2026-05-07 11:43:25 | INFO     | cad_toolkit - Running macro: [Validation] Check Drawing Standards
+2026-05-07 11:43:25 | INFO     | cad_toolkit - Standards check started for: DRW-ENGINE-001
+2026-05-07 11:43:25 | INFO     | cad_toolkit - Standards check complete: FAIL — 4 errors, 0 warnings
+2026-05-07 11:43:25 | INFO     | cad_toolkit - Macro 'standards_check' completed in 2ms
+2026-05-07 11:43:25 | INFO     | cad_toolkit - Registry loaded — 5 macros found
+2026-05-07 11:43:25 | INFO     | cad_toolkit - Running macro: [Comparison] RGCO Overlay Comparison
+2026-05-07 11:43:25 | INFO     | cad_toolkit - RGCO Comparison: PN-001 Rev B → Rev C
+2026-05-07 11:43:25 | INFO     | cad_toolkit - RGCO comparison complete: 8 changes found
+2026-05-07 11:43:25 | INFO     | cad_toolkit - Macro 'rgco_comparison' completed in 1ms
+2026-05-07 11:43:25 | INFO     | cad_toolkit - Registry loaded — 5 macros found
+2026-05-07 11:43:25 | INFO     | cad_toolkit - Running macro: [Validation] Layer Name Audit
+2026-05-07 11:43:25 | INFO     | cad_toolkit - Layer audit started: DRW-ENGINE-001
+2026-05-07 11:43:25 | INFO     | cad_toolkit - Layer audit complete: 2 violations
+2026-05-07 11:43:25 | INFO     | cad_toolkit - Macro 'layer_audit' completed in 1ms
+2026-05-07 11:43:25 | INFO     | cad_toolkit - Registry loaded — 5 macros found
+2026-05-07 11:43:25 | INFO     | cad_toolkit - Running macro: [Automation] Batch Part Rename
+2026-05-07 11:43:25 | INFO     | cad_toolkit - Batch rename: category=Automation, prefix='REV_', suffix=''
+2026-05-07 11:43:25 | INFO     | cad_toolkit - Batch rename complete: 3 parts renamed
+2026-05-07 11:43:25 | INFO     | cad_toolkit - Macro 'batch_rename' completed in 1ms
+2026-05-07 11:43:25 | INFO     | cad_toolkit - Batch complete — 5/5 passed
+2026-05-07 11:43:59 | INFO     | cad_toolkit - Registry loaded — 5 macros found
+2026-05-07 11:43:59 | INFO     | cad_toolkit - Batch execution started — 5 macros
+2026-05-07 11:43:59 | INFO     | cad_toolkit - Registry loaded — 5 macros found
+2026-05-07 11:43:59 | INFO     | cad_toolkit - Running macro: [Export] Export BOM
+2026-05-07 11:43:59 | INFO     | cad_toolkit - BOM Export started for assembly: ENGINE_BLOCK_v3
+2026-05-07 11:43:59 | INFO     | cad_toolkit - BOM exported: 10 parts, 77.1kg total → outputs/BOM_ENGINE_BLOCK_v3_20260507_114359.xlsx
+2026-05-07 11:43:59 | INFO     | cad_toolkit - Macro 'bom_export' completed in 197ms
+2026-05-07 11:43:59 | INFO     | cad_toolkit - Registry loaded — 5 macros found
+2026-05-07 11:43:59 | INFO     | cad_toolkit - Running macro: [Validation] Check Drawing Standards
+2026-05-07 11:43:59 | INFO     | cad_toolkit - Standards check started for: DRW-ENGINE-001
+2026-05-07 11:43:59 | INFO     | cad_toolkit - Standards check complete: FAIL — 4 errors, 0 warnings
+2026-05-07 11:43:59 | INFO     | cad_toolkit - Macro 'standards_check' completed in 2ms
+2026-05-07 11:43:59 | INFO     | cad_toolkit - Registry loaded — 5 macros found
+2026-05-07 11:43:59 | INFO     | cad_toolkit - Running macro: [Comparison] RGCO Overlay Comparison
+2026-05-07 11:43:59 | INFO     | cad_toolkit - RGCO Comparison: PN-001 Rev B → Rev C
+2026-05-07 11:43:59 | INFO     | cad_toolkit - RGCO comparison complete: 8 changes found
+2026-05-07 11:43:59 | INFO     | cad_toolkit - Macro 'rgco_comparison' completed in 1ms
+2026-05-07 11:43:59 | INFO     | cad_toolkit - Registry loaded — 5 macros found
+2026-05-07 11:43:59 | INFO     | cad_toolkit - Running macro: [Validation] Layer Name Audit
+2026-05-07 11:43:59 | INFO     | cad_toolkit - Layer audit started: DRW-ENGINE-001
+2026-05-07 11:43:59 | INFO     | cad_toolkit - Layer audit complete: 2 violations
+2026-05-07 11:43:59 | INFO     | cad_toolkit - Macro 'layer_audit' completed in 1ms
+2026-05-07 11:43:59 | INFO     | cad_toolkit - Registry loaded — 5 macros found
+2026-05-07 11:43:59 | INFO     | cad_toolkit - Running macro: [Automation] Batch Part Rename
+2026-05-07 11:43:59 | INFO     | cad_toolkit - Batch rename: category=Automation, prefix='REV_', suffix=''
+2026-05-07 11:43:59 | INFO     | cad_toolkit - Batch rename complete: 3 parts renamed
+2026-05-07 11:43:59 | INFO     | cad_toolkit - Macro 'batch_rename' completed in 1ms
+2026-05-07 11:43:59 | INFO     | cad_toolkit - Batch complete — 5/5 passed
