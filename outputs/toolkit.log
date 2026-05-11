@@ -785,3 +785,76 @@
 2026-05-11 19:36:00 | SUCCESS  | core.executor - Macro 'rgco_comparison' completed in 4ms
 2026-05-11 20:51:24 | INFO     | core.registry_loader - Registry loaded — 5 macros found
 2026-05-11 20:51:24 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-11 22:12:08 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-11 22:12:08 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-11 22:12:08 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-11 22:12:08 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-11 22:12:08 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-11 22:12:08 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-11 22:12:08 | INFO     | core.executor - Running macro: [Export] Export BOM
+2026-05-11 22:12:08 | INFO     | macro_module - BOM Export started for assembly: ENGINE_BLOCK_v3
+2026-05-11 22:12:08 | SUCCESS  | macro_module - BOM exported: 10 parts, 77.1kg total → outputs/BOM_ENGINE_BLOCK_v3_20260511_221208.xlsx
+2026-05-11 22:12:08 | SUCCESS  | core.executor - Macro 'bom_export' completed in 90ms
+2026-05-11 22:12:08 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-11 22:12:08 | INFO     | core.executor - Running macro: [Export] Export BOM
+2026-05-11 22:12:08 | INFO     | macro_module - BOM Export started for assembly: GEARBOX_ASSY
+2026-05-11 22:12:08 | SUCCESS  | macro_module - BOM exported: 5 parts, 16.4kg total → outputs/BOM_GEARBOX_ASSY_20260511_221208.xlsx
+2026-05-11 22:12:08 | SUCCESS  | core.executor - Macro 'bom_export' completed in 5ms
+2026-05-11 22:12:08 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-11 22:12:08 | INFO     | core.executor - Running macro: [Export] Export BOM
+2026-05-11 22:12:08 | INFO     | macro_module - BOM Export started for assembly: FAKE_ASSEMBLY
+2026-05-11 22:12:08 | ERROR    | core.executor - Macro 'bom_export' failed after 0ms — Assembly 'FAKE_ASSEMBLY' not found. Available: ['ENGINE_BLOCK_v3', 'GEARBOX_ASSY']
+2026-05-11 22:12:08 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-11 22:12:08 | INFO     | core.executor - Running macro: [Validation] Check Drawing Standards
+2026-05-11 22:12:08 | INFO     | macro_module - Standards check started for: DRW-GEARBOX-002
+2026-05-11 22:12:08 | SUCCESS  | macro_module - Standards check complete: PASS — 0 errors, 0 warnings
+2026-05-11 22:12:08 | SUCCESS  | core.executor - Macro 'standards_check' completed in 1ms
+2026-05-11 22:12:08 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-11 22:12:08 | INFO     | core.executor - Running macro: [Validation] Check Drawing Standards
+2026-05-11 22:12:08 | INFO     | macro_module - Standards check started for: DRW-ENGINE-001
+2026-05-11 22:12:08 | SUCCESS  | macro_module - Standards check complete: FAIL — 4 errors, 0 warnings
+2026-05-11 22:12:08 | SUCCESS  | core.executor - Macro 'standards_check' completed in 1ms
+2026-05-11 22:12:08 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-11 22:12:08 | INFO     | core.executor - Running macro: [Comparison] RGCO Overlay Comparison
+2026-05-11 22:12:08 | INFO     | macro_module - RGCO Comparison: PN-001 Rev B → Rev C
+2026-05-11 22:12:08 | SUCCESS  | macro_module - RGCO comparison complete: 8 changes found
+2026-05-11 22:12:08 | SUCCESS  | core.executor - Macro 'rgco_comparison' completed in 1ms
+2026-05-11 22:12:08 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-11 22:12:08 | INFO     | core.executor - Running macro: [Comparison] RGCO Overlay Comparison
+2026-05-11 22:12:08 | INFO     | macro_module - RGCO Comparison: PN-001 Rev A → Rev B
+2026-05-11 22:12:08 | SUCCESS  | macro_module - RGCO comparison complete: 0 changes found
+2026-05-11 22:12:08 | SUCCESS  | core.executor - Macro 'rgco_comparison' completed in 1ms
+2026-05-11 22:12:08 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-11 22:12:08 | INFO     | core.executor - Running macro: [Validation] Layer Name Audit
+2026-05-11 22:12:08 | INFO     | macro_module - Layer audit started: DRW-ENGINE-001
+2026-05-11 22:12:08 | SUCCESS  | macro_module - Layer audit complete: 2 violations
+2026-05-11 22:12:08 | SUCCESS  | core.executor - Macro 'layer_audit' completed in 1ms
+2026-05-11 22:12:08 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-11 22:12:08 | INFO     | core.executor - Running macro: [Automation] Batch Part Rename
+2026-05-11 22:12:08 | INFO     | macro_module - Batch rename: category=Automation, prefix='REV_', suffix='_2024'
+2026-05-11 22:12:08 | SUCCESS  | macro_module - Batch rename complete: 3 parts renamed
+2026-05-11 22:12:08 | SUCCESS  | core.executor - Macro 'batch_rename' completed in 1ms
+2026-05-11 22:12:08 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-11 22:12:08 | ERROR    | core.executor - Macro 'does_not_exist' failed after 0ms — Macro 'does_not_exist' not found. Available: ['bom_export', 'standards_check', 'rgco_comparison', 'layer_audit', 'batch_rename']
+2026-05-11 22:12:08 | INFO     | core.executor - Batch execution started — 3 macros
+2026-05-11 22:12:08 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-11 22:12:08 | INFO     | core.executor - Running macro: [Export] Export BOM
+2026-05-11 22:12:08 | INFO     | macro_module - BOM Export started for assembly: ENGINE_BLOCK_v3
+2026-05-11 22:12:08 | SUCCESS  | macro_module - BOM exported: 10 parts, 77.1kg total → outputs/BOM_ENGINE_BLOCK_v3_20260511_221208.xlsx
+2026-05-11 22:12:08 | SUCCESS  | core.executor - Macro 'bom_export' completed in 6ms
+2026-05-11 22:12:08 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-11 22:12:08 | INFO     | core.executor - Running macro: [Validation] Check Drawing Standards
+2026-05-11 22:12:08 | INFO     | macro_module - Standards check started for: DRW-ENGINE-001
+2026-05-11 22:12:08 | SUCCESS  | macro_module - Standards check complete: FAIL — 4 errors, 0 warnings
+2026-05-11 22:12:08 | SUCCESS  | core.executor - Macro 'standards_check' completed in 1ms
+2026-05-11 22:12:08 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-11 22:12:08 | INFO     | core.executor - Running macro: [Validation] Layer Name Audit
+2026-05-11 22:12:08 | INFO     | macro_module - Layer audit started: DRW-ENGINE-001
+2026-05-11 22:12:08 | SUCCESS  | macro_module - Layer audit complete: 2 violations
+2026-05-11 22:12:08 | SUCCESS  | core.executor - Macro 'layer_audit' completed in 0ms
+2026-05-11 22:12:08 | INFO     | core.executor - Batch complete — 3/3 passed
+2026-05-11 22:12:08 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-11 22:12:08 | INFO     | core.executor - Running macro: [Export] Export BOM
+2026-05-11 22:12:08 | INFO     | macro_module - BOM Export started for assembly: ENGINE_BLOCK_v3
+2026-05-11 22:12:08 | SUCCESS  | macro_module - BOM exported: 10 parts, 77.1kg total → outputs/BOM_ENGINE_BLOCK_v3_20260511_221208.xlsx
+2026-05-11 22:12:08 | SUCCESS  | core.executor - Macro 'bom_export' completed in 5ms
