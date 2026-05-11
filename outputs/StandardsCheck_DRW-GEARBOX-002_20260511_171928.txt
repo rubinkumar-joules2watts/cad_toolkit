@@ -1,0 +1,29 @@
+CAD DRAWING STANDARDS CHECK REPORT
+==================================================
+Drawing  : DRW-GEARBOX-002
+Date     : 2026-05-11 17:19:28
+Result   : PASS
+Passed   : 19 | Errors: 0 | Warnings: 0
+==================================================
+
+
+PASSED CHECKS:
+  [OK]      Title block: 'drawn_by'
+  [OK]      Title block: 'checked_by'
+  [OK]      Title block: 'part_number'
+  [OK]      Title block: 'revision'
+  [OK]      Title block: 'date'
+  [OK]      Title block: 'title'
+  [OK]      Title block: 'scale'
+  [OK]      Title block: 'units'
+  [OK]      Layer 'GEOMETRY'
+  [OK]      Layer 'DIMENSIONS'
+  [OK]      Layer 'HIDDEN'
+  [OK]      Layer 'CENTERLINES'
+  [OK]      Layer 'NOTES'
+  [OK]      Layer 'HATCHING'
+  [OK]      View 'Front View'
+  [OK]      View 'Top View'
+  [OK]      View 'ISO View'
+  [OK]      Annotations: unattached check
+  [OK]      Annotations: GD&T symbols

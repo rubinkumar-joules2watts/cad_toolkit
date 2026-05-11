@@ -257,3 +257,531 @@
 2026-05-07 11:43:59 | INFO     | cad_toolkit - Batch rename complete: 3 parts renamed
 2026-05-07 11:43:59 | INFO     | cad_toolkit - Macro 'batch_rename' completed in 1ms
 2026-05-07 11:43:59 | INFO     | cad_toolkit - Batch complete — 5/5 passed
+2026-05-07 12:19:14 | INFO     | cad_toolkit - Registry loaded — 5 macros found
+2026-05-07 12:22:36 | INFO     | cad_toolkit - Registry loaded — 5 macros found
+2026-05-07 12:22:36 | INFO     | cad_toolkit - Running macro: [Export] Export BOM
+2026-05-07 12:22:36 | ERROR    | cad_toolkit - Macro 'bom_export' failed after 3ms — No module named 'openpyxl'
+2026-05-07 12:53:48 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 12:53:48 | INFO     | core.executor - Running macro: [Comparison] RGCO Overlay Comparison
+2026-05-07 12:53:48 | INFO     | macro_module - RGCO Comparison: PN-001 Rev B → Rev C
+2026-05-07 12:53:48 | SUCCESS  | macro_module - RGCO comparison complete: 8 changes found
+2026-05-07 12:53:48 | SUCCESS  | core.executor - Macro 'rgco_comparison' completed in 2ms
+2026-05-07 14:30:12 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 14:30:26 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 14:30:26 | INFO     | core.executor - Running macro: [Export] Export BOM
+2026-05-07 14:30:26 | INFO     | macro_module - BOM Export started for assembly: ENGINE_BLOCK_v3
+2026-05-07 14:30:26 | SUCCESS  | macro_module - BOM exported: 10 parts, 77.1kg total → API response
+2026-05-07 14:30:26 | SUCCESS  | core.executor - Macro 'bom_export' completed in 286ms
+2026-05-07 14:34:25 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 14:36:03 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 14:36:07 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 14:36:07 | INFO     | core.executor - Running macro: [Export] Export BOM
+2026-05-07 14:36:07 | INFO     | macro_module - BOM Export started for assembly: ENGINE_BLOCK_v3
+2026-05-07 14:36:07 | SUCCESS  | macro_module - BOM exported: 10 parts, 77.1kg total → API response
+2026-05-07 14:36:07 | SUCCESS  | core.executor - Macro 'bom_export' completed in 19ms
+2026-05-07 14:36:17 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 14:36:17 | INFO     | core.executor - Running macro: [Validation] Check Drawing Standards
+2026-05-07 14:36:17 | INFO     | macro_module - Standards check started for: DRW-ENGINE-001
+2026-05-07 14:36:17 | SUCCESS  | macro_module - Standards check complete: FAIL — 4 errors, 0 warnings
+2026-05-07 14:36:17 | SUCCESS  | core.executor - Macro 'standards_check' completed in 8ms
+2026-05-07 14:36:25 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 14:36:25 | INFO     | core.executor - Running macro: [Comparison] RGCO Overlay Comparison
+2026-05-07 14:36:25 | INFO     | macro_module - RGCO Comparison: PN-001 Rev B → Rev C
+2026-05-07 14:36:25 | SUCCESS  | macro_module - RGCO comparison complete: 8 changes found
+2026-05-07 14:36:25 | SUCCESS  | core.executor - Macro 'rgco_comparison' completed in 3ms
+2026-05-07 14:43:14 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 14:43:30 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 14:45:37 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 14:55:24 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 14:55:36 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 14:55:36 | INFO     | core.executor - Running macro: [Validation] Check Drawing Standards
+2026-05-07 14:55:36 | INFO     | macro_module - Standards check started for: DRW-ENGINE-001
+2026-05-07 14:55:36 | SUCCESS  | macro_module - Standards check complete: FAIL — 4 errors, 0 warnings
+2026-05-07 14:55:36 | SUCCESS  | core.executor - Macro 'standards_check' completed in 2ms
+2026-05-07 14:56:09 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 14:56:09 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 14:57:01 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 14:58:23 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 14:58:23 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 14:58:45 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 14:58:45 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 14:59:27 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 14:59:28 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 14:59:29 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 14:59:31 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 14:59:32 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 14:59:32 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:01:08 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:01:08 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:01:11 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:01:11 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:02:46 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:02:46 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:02:47 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:02:48 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:02:49 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:02:50 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:02:50 | INFO     | core.executor - Running macro: [Export] Export BOM
+2026-05-07 15:02:50 | INFO     | macro_module - BOM Export started for assembly: ENGINE_BLOCK_v3
+2026-05-07 15:02:50 | SUCCESS  | macro_module - BOM exported: 10 parts, 77.1kg total → API response
+2026-05-07 15:02:50 | SUCCESS  | core.executor - Macro 'bom_export' completed in 26ms
+2026-05-07 15:05:19 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:05:19 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:05:27 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:05:27 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:06:43 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:06:43 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:13:49 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:13:49 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:13:52 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:13:52 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:13:59 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:13:59 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:14:27 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:14:27 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:14:28 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:14:28 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:14:29 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:14:30 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:14:34 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:14:51 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:14:51 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:14:55 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:14:55 | INFO     | core.executor - Running macro: [Automation] Batch Part Rename
+2026-05-07 15:14:55 | INFO     | macro_module - Batch rename: category=Automation, prefix='REV_', suffix=''
+2026-05-07 15:14:55 | SUCCESS  | macro_module - Batch rename complete: 3 parts renamed
+2026-05-07 15:14:55 | SUCCESS  | core.executor - Macro 'batch_rename' completed in 3ms
+2026-05-07 15:14:58 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:14:58 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:15:58 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:15:58 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:16:00 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:16:02 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:16:02 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:16:42 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:16:42 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:16:43 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:16:47 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:16:47 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:20:04 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:20:04 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:20:21 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:20:21 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:20:24 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:20:24 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:20:25 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:20:25 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:20:27 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:21:27 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:21:27 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:21:29 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:21:29 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:21:30 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:21:32 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:21:33 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:22:20 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:22:20 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:22:28 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:22:28 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:22:29 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:22:31 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:22:55 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:22:57 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:23:00 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:23:01 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:23:01 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:23:16 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:23:16 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:23:22 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:23:22 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:28:37 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:28:37 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:32:55 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:32:55 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:33:06 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:33:06 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:33:11 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:33:11 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:33:15 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:33:15 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:33:16 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:33:18 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:33:19 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:33:20 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:37:05 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:37:05 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:37:05 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:37:05 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:37:20 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:37:20 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:37:20 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:37:20 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:37:39 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:37:39 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:37:39 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:37:39 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:38:09 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:38:09 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:38:11 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:38:11 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:38:13 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:38:13 | INFO     | core.executor - Running macro: [Export] Export BOM
+2026-05-07 15:38:13 | INFO     | macro_module - BOM Export started for assembly: ENGINE_BLOCK_v3
+2026-05-07 15:38:13 | SUCCESS  | macro_module - BOM exported: 10 parts, 77.1kg total → API response
+2026-05-07 15:38:13 | SUCCESS  | core.executor - Macro 'bom_export' completed in 23ms
+2026-05-07 15:38:19 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:38:21 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:38:23 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:38:32 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:40:06 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:40:06 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:40:08 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:40:08 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:40:08 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:40:10 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:42:10 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:42:10 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:42:10 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:42:10 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:42:24 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:42:24 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:44:58 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:44:58 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:44:59 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:44:59 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:45:02 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:45:02 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:48:56 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:48:56 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:48:56 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:48:56 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:49:06 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:49:06 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:49:11 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:49:11 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:49:13 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:49:13 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:49:15 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:49:15 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:49:15 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:49:17 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:49:18 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:49:19 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:50:40 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:50:41 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:50:41 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:50:43 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:50:43 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:52:04 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:52:04 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:53:45 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:53:45 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:53:46 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:54:34 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:54:34 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:54:40 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:54:40 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:54:40 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:54:40 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:55:07 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:55:07 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:55:10 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:55:10 | INFO     | core.executor - Running macro: [Export] Export BOM
+2026-05-07 15:55:10 | INFO     | macro_module - BOM Export started for assembly: ENGINE_BLOCK_v3
+2026-05-07 15:55:10 | SUCCESS  | macro_module - BOM exported: 10 parts, 77.1kg total → API response
+2026-05-07 15:55:10 | SUCCESS  | core.executor - Macro 'bom_export' completed in 20ms
+2026-05-07 15:55:12 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:55:12 | INFO     | core.executor - Running macro: [Export] Export BOM
+2026-05-07 15:55:12 | INFO     | macro_module - BOM Export started for assembly: ENGINE_BLOCK_v3
+2026-05-07 15:55:12 | SUCCESS  | macro_module - BOM exported: 10 parts, 77.1kg total → API response
+2026-05-07 15:55:12 | SUCCESS  | core.executor - Macro 'bom_export' completed in 18ms
+2026-05-07 15:55:12 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:55:12 | INFO     | core.executor - Running macro: [Export] Export BOM
+2026-05-07 15:55:12 | INFO     | macro_module - BOM Export started for assembly: ENGINE_BLOCK_v3
+2026-05-07 15:55:13 | SUCCESS  | macro_module - BOM exported: 10 parts, 77.1kg total → API response
+2026-05-07 15:55:13 | SUCCESS  | core.executor - Macro 'bom_export' completed in 18ms
+2026-05-07 15:55:13 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:55:13 | INFO     | core.executor - Running macro: [Export] Export BOM
+2026-05-07 15:55:13 | INFO     | macro_module - BOM Export started for assembly: ENGINE_BLOCK_v3
+2026-05-07 15:55:13 | SUCCESS  | macro_module - BOM exported: 10 parts, 77.1kg total → API response
+2026-05-07 15:55:13 | SUCCESS  | core.executor - Macro 'bom_export' completed in 29ms
+2026-05-07 15:55:14 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:55:14 | INFO     | core.executor - Running macro: [Export] Export BOM
+2026-05-07 15:55:14 | INFO     | macro_module - BOM Export started for assembly: ENGINE_BLOCK_v3
+2026-05-07 15:55:14 | SUCCESS  | macro_module - BOM exported: 10 parts, 77.1kg total → API response
+2026-05-07 15:55:14 | SUCCESS  | core.executor - Macro 'bom_export' completed in 30ms
+2026-05-07 15:55:15 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:55:15 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:55:15 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:55:15 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:55:19 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:55:20 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:55:22 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:55:22 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:55:29 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:55:29 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:55:31 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:55:31 | INFO     | core.executor - Running macro: [Export] Export BOM
+2026-05-07 15:55:31 | INFO     | macro_module - BOM Export started for assembly: ENGINE_BLOCK_v3
+2026-05-07 15:55:31 | SUCCESS  | macro_module - BOM exported: 10 parts, 77.1kg total → API response
+2026-05-07 15:55:31 | SUCCESS  | core.executor - Macro 'bom_export' completed in 31ms
+2026-05-07 15:55:32 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:55:32 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:56:08 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:56:08 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:56:09 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:56:09 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:56:23 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:56:23 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:56:23 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:56:23 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:56:23 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:56:23 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:56:23 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:56:23 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:56:42 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:56:42 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:56:47 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:56:47 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:56:47 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:56:47 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:56:52 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:56:52 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:56:52 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:56:52 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:56:54 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:56:54 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:56:54 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:56:54 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:56:56 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:56:56 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:56:56 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:56:56 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:56:59 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:56:59 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:56:59 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:56:59 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:57:02 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:57:02 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:57:02 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:57:02 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:57:12 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:57:12 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:57:12 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:57:12 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:57:22 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:57:22 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:57:22 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:57:22 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:57:26 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:57:26 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:57:26 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:57:26 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:57:54 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:57:54 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:58:10 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:58:10 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:58:12 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:58:12 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:58:48 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:58:48 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:58:54 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:58:54 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:58:54 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:58:55 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:58:56 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 15:58:57 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 17:12:48 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 17:12:48 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 17:12:50 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 17:12:50 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 17:25:16 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 17:25:16 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 17:25:17 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 17:25:19 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 17:25:20 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 17:25:23 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 17:25:23 | INFO     | core.executor - Running macro: [Validation] Check Drawing Standards
+2026-05-07 17:25:23 | INFO     | macro_module - Standards check started for: DRW-ENGINE-001
+2026-05-07 17:25:23 | SUCCESS  | macro_module - Standards check complete: FAIL — 4 errors, 0 warnings
+2026-05-07 17:25:23 | SUCCESS  | core.executor - Macro 'standards_check' completed in 3ms
+2026-05-07 17:25:42 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 17:25:44 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 17:25:45 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 17:25:46 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 17:25:51 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 17:25:51 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 17:26:04 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 17:26:04 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 17:26:24 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 17:26:24 | INFO     | core.executor - Running macro: [Export] Export BOM
+2026-05-07 17:26:24 | INFO     | macro_module - BOM Export started for assembly: ENGINE_BLOCK_v3
+2026-05-07 17:26:24 | SUCCESS  | macro_module - BOM exported: 10 parts, 77.1kg total → API response
+2026-05-07 17:26:24 | SUCCESS  | core.executor - Macro 'bom_export' completed in 25ms
+2026-05-07 17:26:33 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 17:26:33 | INFO     | core.executor - Running macro: [Export] Export BOM
+2026-05-07 17:26:33 | INFO     | macro_module - BOM Export started for assembly: ENGINE_BLOCK_v3
+2026-05-07 17:26:33 | SUCCESS  | macro_module - BOM exported: 10 parts, 77.1kg total → API response
+2026-05-07 17:26:33 | SUCCESS  | core.executor - Macro 'bom_export' completed in 17ms
+2026-05-07 17:26:34 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-07 17:26:34 | INFO     | core.executor - Running macro: [Export] Export BOM
+2026-05-07 17:26:34 | INFO     | macro_module - BOM Export started for assembly: ENGINE_BLOCK_v3
+2026-05-07 17:26:34 | SUCCESS  | macro_module - BOM exported: 10 parts, 77.1kg total → API response
+2026-05-07 17:26:34 | SUCCESS  | core.executor - Macro 'bom_export' completed in 18ms
+2026-05-08 15:32:00 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-08 15:32:00 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-08 17:31:32 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-08 17:31:32 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-08 17:31:40 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-08 17:31:40 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-08 17:31:41 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-08 17:32:04 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-08 17:32:07 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-08 17:34:23 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-08 17:34:24 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-08 17:34:24 | INFO     | core.executor - Running macro: [Comparison] RGCO Overlay Comparison
+2026-05-08 17:34:24 | INFO     | macro_module - RGCO Comparison: PN-001 Rev B → Rev C
+2026-05-08 17:34:24 | SUCCESS  | macro_module - RGCO comparison complete: 8 changes found
+2026-05-08 17:34:24 | SUCCESS  | core.executor - Macro 'rgco_comparison' completed in 3ms
+2026-05-08 17:34:27 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-08 17:34:27 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-08 17:34:27 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-08 17:34:27 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-08 18:12:07 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-08 18:12:07 | INFO     | core.executor - Running macro: [Comparison] RGCO Overlay Comparison
+2026-05-08 18:12:07 | INFO     | macro_module - RGCO Comparison: PN-001 Rev B → Rev C
+2026-05-08 18:12:07 | SUCCESS  | macro_module - RGCO comparison complete: 8 changes found
+2026-05-08 18:12:07 | SUCCESS  | core.executor - Macro 'rgco_comparison' completed in 2ms
+2026-05-08 18:12:09 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-08 18:12:09 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-08 18:12:09 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-08 18:12:09 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-08 18:12:14 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-08 18:12:14 | INFO     | core.executor - Running macro: [Comparison] RGCO Overlay Comparison
+2026-05-08 18:12:14 | INFO     | macro_module - RGCO Comparison: PN-001 Rev B → Rev C
+2026-05-08 18:12:14 | SUCCESS  | macro_module - RGCO comparison complete: 8 changes found
+2026-05-08 18:12:14 | SUCCESS  | core.executor - Macro 'rgco_comparison' completed in 2ms
+2026-05-08 18:12:17 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-08 18:12:17 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-11 17:09:12 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-11 17:09:12 | INFO     | core.executor - Running macro: [Export] Export BOM
+2026-05-11 17:09:12 | INFO     | macro_module - BOM Export started for assembly: ENGINE_BLOCK_v3
+2026-05-11 17:09:12 | SUCCESS  | macro_module - BOM exported: 10 parts, 77.1kg total → API response
+2026-05-11 17:09:12 | SUCCESS  | core.executor - Macro 'bom_export' completed in 158ms
+2026-05-11 17:09:16 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-11 17:09:16 | INFO     | core.executor - Running macro: [Comparison] RGCO Overlay Comparison
+2026-05-11 17:09:16 | INFO     | macro_module - RGCO Comparison: PN-001 Rev B → Rev C
+2026-05-11 17:09:16 | SUCCESS  | macro_module - RGCO comparison complete: 8 changes found
+2026-05-11 17:09:16 | SUCCESS  | core.executor - Macro 'rgco_comparison' completed in 8ms
+2026-05-11 17:19:28 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-11 17:19:28 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-11 17:19:28 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-11 17:19:28 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-11 17:19:28 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-11 17:19:28 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-11 17:19:28 | INFO     | core.executor - Running macro: [Export] Export BOM
+2026-05-11 17:19:28 | INFO     | macro_module - BOM Export started for assembly: ENGINE_BLOCK_v3
+2026-05-11 17:19:28 | SUCCESS  | macro_module - BOM exported: 10 parts, 77.1kg total → outputs/BOM_ENGINE_BLOCK_v3_20260511_171928.xlsx
+2026-05-11 17:19:28 | SUCCESS  | core.executor - Macro 'bom_export' completed in 77ms
+2026-05-11 17:19:28 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-11 17:19:28 | INFO     | core.executor - Running macro: [Export] Export BOM
+2026-05-11 17:19:28 | INFO     | macro_module - BOM Export started for assembly: GEARBOX_ASSY
+2026-05-11 17:19:28 | SUCCESS  | macro_module - BOM exported: 5 parts, 16.4kg total → outputs/BOM_GEARBOX_ASSY_20260511_171928.xlsx
+2026-05-11 17:19:28 | SUCCESS  | core.executor - Macro 'bom_export' completed in 4ms
+2026-05-11 17:19:28 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-11 17:19:28 | INFO     | core.executor - Running macro: [Export] Export BOM
+2026-05-11 17:19:28 | INFO     | macro_module - BOM Export started for assembly: FAKE_ASSEMBLY
+2026-05-11 17:19:28 | ERROR    | core.executor - Macro 'bom_export' failed after 0ms — Assembly 'FAKE_ASSEMBLY' not found. Available: ['ENGINE_BLOCK_v3', 'GEARBOX_ASSY']
+2026-05-11 17:19:28 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-11 17:19:28 | INFO     | core.executor - Running macro: [Validation] Check Drawing Standards
+2026-05-11 17:19:28 | INFO     | macro_module - Standards check started for: DRW-GEARBOX-002
+2026-05-11 17:19:28 | SUCCESS  | macro_module - Standards check complete: PASS — 0 errors, 0 warnings
+2026-05-11 17:19:28 | SUCCESS  | core.executor - Macro 'standards_check' completed in 2ms
+2026-05-11 17:19:28 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-11 17:19:28 | INFO     | core.executor - Running macro: [Validation] Check Drawing Standards
+2026-05-11 17:19:28 | INFO     | macro_module - Standards check started for: DRW-ENGINE-001
+2026-05-11 17:19:28 | SUCCESS  | macro_module - Standards check complete: FAIL — 4 errors, 0 warnings
+2026-05-11 17:19:28 | SUCCESS  | core.executor - Macro 'standards_check' completed in 1ms
+2026-05-11 17:19:28 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-11 17:19:28 | INFO     | core.executor - Running macro: [Comparison] RGCO Overlay Comparison
+2026-05-11 17:19:28 | INFO     | macro_module - RGCO Comparison: PN-001 Rev B → Rev C
+2026-05-11 17:19:28 | SUCCESS  | macro_module - RGCO comparison complete: 8 changes found
+2026-05-11 17:19:28 | SUCCESS  | core.executor - Macro 'rgco_comparison' completed in 3ms
+2026-05-11 17:19:28 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-11 17:19:28 | INFO     | core.executor - Running macro: [Comparison] RGCO Overlay Comparison
+2026-05-11 17:19:28 | INFO     | macro_module - RGCO Comparison: PN-001 Rev A → Rev B
+2026-05-11 17:19:28 | SUCCESS  | macro_module - RGCO comparison complete: 0 changes found
+2026-05-11 17:19:28 | SUCCESS  | core.executor - Macro 'rgco_comparison' completed in 1ms
+2026-05-11 17:19:28 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-11 17:19:28 | INFO     | core.executor - Running macro: [Validation] Layer Name Audit
+2026-05-11 17:19:28 | INFO     | macro_module - Layer audit started: DRW-ENGINE-001
+2026-05-11 17:19:28 | SUCCESS  | macro_module - Layer audit complete: 2 violations
+2026-05-11 17:19:28 | SUCCESS  | core.executor - Macro 'layer_audit' completed in 1ms
+2026-05-11 17:19:28 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-11 17:19:28 | INFO     | core.executor - Running macro: [Automation] Batch Part Rename
+2026-05-11 17:19:28 | INFO     | macro_module - Batch rename: category=Automation, prefix='REV_', suffix='_2024'
+2026-05-11 17:19:28 | SUCCESS  | macro_module - Batch rename complete: 3 parts renamed
+2026-05-11 17:19:28 | SUCCESS  | core.executor - Macro 'batch_rename' completed in 1ms
+2026-05-11 17:19:28 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-11 17:19:28 | ERROR    | core.executor - Macro 'does_not_exist' failed after 0ms — Macro 'does_not_exist' not found. Available: ['bom_export', 'standards_check', 'rgco_comparison', 'layer_audit', 'batch_rename']
+2026-05-11 17:19:28 | INFO     | core.executor - Batch execution started — 3 macros
+2026-05-11 17:19:28 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-11 17:19:28 | INFO     | core.executor - Running macro: [Export] Export BOM
+2026-05-11 17:19:28 | INFO     | macro_module - BOM Export started for assembly: ENGINE_BLOCK_v3
+2026-05-11 17:19:28 | SUCCESS  | macro_module - BOM exported: 10 parts, 77.1kg total → outputs/BOM_ENGINE_BLOCK_v3_20260511_171928.xlsx
+2026-05-11 17:19:28 | SUCCESS  | core.executor - Macro 'bom_export' completed in 5ms
+2026-05-11 17:19:28 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-11 17:19:28 | INFO     | core.executor - Running macro: [Validation] Check Drawing Standards
+2026-05-11 17:19:28 | INFO     | macro_module - Standards check started for: DRW-ENGINE-001
+2026-05-11 17:19:28 | SUCCESS  | macro_module - Standards check complete: FAIL — 4 errors, 0 warnings
+2026-05-11 17:19:28 | SUCCESS  | core.executor - Macro 'standards_check' completed in 1ms
+2026-05-11 17:19:28 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-11 17:19:28 | INFO     | core.executor - Running macro: [Validation] Layer Name Audit
+2026-05-11 17:19:28 | INFO     | macro_module - Layer audit started: DRW-ENGINE-001
+2026-05-11 17:19:28 | SUCCESS  | macro_module - Layer audit complete: 2 violations
+2026-05-11 17:19:28 | SUCCESS  | core.executor - Macro 'layer_audit' completed in 0ms
+2026-05-11 17:19:28 | INFO     | core.executor - Batch complete — 3/3 passed
+2026-05-11 17:19:28 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-11 17:19:28 | INFO     | core.executor - Running macro: [Export] Export BOM
+2026-05-11 17:19:28 | INFO     | macro_module - BOM Export started for assembly: ENGINE_BLOCK_v3
+2026-05-11 17:19:28 | SUCCESS  | macro_module - BOM exported: 10 parts, 77.1kg total → outputs/BOM_ENGINE_BLOCK_v3_20260511_171928.xlsx
+2026-05-11 17:19:28 | SUCCESS  | core.executor - Macro 'bom_export' completed in 5ms
+2026-05-11 17:24:09 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-11 17:24:09 | INFO     | core.executor - Running macro: [Comparison] RGCO Overlay Comparison
+2026-05-11 17:24:09 | INFO     | macro_module - RGCO Comparison: PN-001 Rev B → Rev C
+2026-05-11 17:24:09 | SUCCESS  | macro_module - RGCO comparison complete: 8 changes found
+2026-05-11 17:24:09 | SUCCESS  | core.executor - Macro 'rgco_comparison' completed in 1ms
+2026-05-11 19:30:26 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-11 19:30:26 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-11 19:30:28 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-11 19:30:28 | INFO     | core.executor - Running macro: [Comparison] RGCO Overlay Comparison
+2026-05-11 19:30:28 | INFO     | macro_module - RGCO Comparison: PN-001 Rev B → Rev C
+2026-05-11 19:30:28 | SUCCESS  | macro_module - RGCO comparison complete: 8 changes found
+2026-05-11 19:30:28 | SUCCESS  | core.executor - Macro 'rgco_comparison' completed in 2ms
+2026-05-11 19:35:10 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-11 19:35:10 | INFO     | core.executor - Running macro: [Comparison] RGCO Overlay Comparison
+2026-05-11 19:35:10 | INFO     | macro_module - RGCO Comparison: PN-001 Rev B → Rev C
+2026-05-11 19:35:10 | SUCCESS  | macro_module - RGCO comparison complete: 8 changes found
+2026-05-11 19:35:10 | SUCCESS  | core.executor - Macro 'rgco_comparison' completed in 1ms
+2026-05-11 19:35:11 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-11 19:35:11 | INFO     | core.executor - Running macro: [Comparison] RGCO Overlay Comparison
+2026-05-11 19:35:11 | INFO     | macro_module - RGCO Comparison: PN-001 Rev B → Rev C
+2026-05-11 19:35:11 | SUCCESS  | macro_module - RGCO comparison complete: 8 changes found
+2026-05-11 19:35:11 | SUCCESS  | core.executor - Macro 'rgco_comparison' completed in 1ms
+2026-05-11 19:35:12 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-11 19:35:12 | INFO     | core.executor - Running macro: [Comparison] RGCO Overlay Comparison
+2026-05-11 19:35:12 | INFO     | macro_module - RGCO Comparison: PN-001 Rev B → Rev C
+2026-05-11 19:35:12 | SUCCESS  | macro_module - RGCO comparison complete: 8 changes found
+2026-05-11 19:35:12 | SUCCESS  | core.executor - Macro 'rgco_comparison' completed in 1ms
+2026-05-11 19:35:31 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-11 19:35:31 | INFO     | core.executor - Running macro: [Comparison] RGCO Overlay Comparison
+2026-05-11 19:35:31 | INFO     | macro_module - RGCO Comparison: PN-001 Rev B → Rev C
+2026-05-11 19:35:31 | SUCCESS  | macro_module - RGCO comparison complete: 8 changes found
+2026-05-11 19:35:31 | SUCCESS  | core.executor - Macro 'rgco_comparison' completed in 1ms
+2026-05-11 19:36:00 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-11 19:36:00 | INFO     | core.executor - Running macro: [Comparison] RGCO Overlay Comparison
+2026-05-11 19:36:00 | INFO     | macro_module - RGCO Comparison: PN-001 Rev B → Rev C
+2026-05-11 19:36:00 | SUCCESS  | macro_module - RGCO comparison complete: 8 changes found
+2026-05-11 19:36:00 | SUCCESS  | core.executor - Macro 'rgco_comparison' completed in 4ms
+2026-05-11 20:51:24 | INFO     | core.registry_loader - Registry loaded — 5 macros found
+2026-05-11 20:51:24 | INFO     | core.registry_loader - Registry loaded — 5 macros found

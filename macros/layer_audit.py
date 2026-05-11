@@ -19,6 +19,8 @@ APPROVED_LAYERS = {"GEOMETRY", "DIMENSIONS", "HIDDEN", "CENTERLINES", "NOTES",
 
 def run(params: dict) -> dict:
     drawing_name = params.get("drawing_name", "DRW-ENGINE-001")
+    persist_report = params.get("_persist_report", True)
+    include_report = params.get("_include_report", False)
     logger.info(f"Layer audit started: {drawing_name}")
 
     layers = MOCK_DRAWINGS.get(drawing_name)
@@ -34,18 +36,39 @@ def run(params: dict) -> dict:
         else:
             valid.append(layer)
 
-    output_path = Path(f"outputs/LayerAudit_{drawing_name}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.txt")
-    with open(output_path, "w") as f:
-        f.write(f"LAYER AUDIT REPORT — {drawing_name}\n{'='*40}\n")
-        f.write(f"Valid: {len(valid)} | Violations: {len(violations)}\n\n")
-        if violations:
-            f.write("VIOLATIONS:\n")
-            for v in violations:
-                f.write(f"  '{v['layer']}' — {v['issue']}\n")
-        f.write("\nVALID LAYERS:\n")
-        for l in valid:
-            f.write(f"  {l}\n")
+    report_lines = [
+        f"LAYER AUDIT REPORT — {drawing_name}",
+        "=" * 40,
+        f"Valid: {len(valid)} | Violations: {len(violations)}",
+        "",
+    ]
+    if violations:
+        report_lines.append("VIOLATIONS:")
+        for v in violations:
+            report_lines.append(f"  '{v['layer']}' — {v['issue']}")
+    report_lines.append("")
+    report_lines.append("VALID LAYERS:")
+    for layer in valid:
+        report_lines.append(f"  {layer}")
+
+    report_content = "\n".join(report_lines) + "\n"
+    filename = f"LayerAudit_{drawing_name}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.txt"
+    output_path = Path("outputs") / filename
+    if persist_report:
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        output_path.write_text(report_content)
 
     logger.success(f"Layer audit complete: {len(violations)} violations")
-    return {"drawing": drawing_name, "valid": len(valid),
-            "violations": len(violations), "details": violations, "report_file": str(output_path)}
+    output = {"drawing": drawing_name, "valid": len(valid),
+              "violations": len(violations), "details": violations,
+              "report_file": str(output_path) if persist_report else None}
+
+    if include_report:
+        output["report"] = {
+            "filename": filename,
+            "media_type": "text/plain",
+            "encoding": "utf-8",
+            "content": report_content,
+        }
+
+    return output

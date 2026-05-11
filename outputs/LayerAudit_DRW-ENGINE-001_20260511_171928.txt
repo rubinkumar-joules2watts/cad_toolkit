@@ -1,0 +1,14 @@
+LAYER AUDIT REPORT — DRW-ENGINE-001
+========================================
+Valid: 5 | Violations: 2
+
+VIOLATIONS:
+  'notes' — Not uppercase
+  'BoundingBox' — Not uppercase
+
+VALID LAYERS:
+  GEOMETRY
+  DIMENSIONS
+  HIDDEN
+  CENTERLINES
+  SYMBOLS

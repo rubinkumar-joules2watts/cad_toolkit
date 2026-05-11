@@ -79,6 +79,13 @@ def test_execute_rgco_comparison_changes():
     assert result.success is True
     assert result.output["total_changes"] > 0
     assert result.output["overall"] == "CHANGES DETECTED"
+    assert "comparison_views" in result.output
+    assert "tabs" in result.output["comparison_views"]
+    tab_ids = [tab["id"] for tab in result.output["comparison_views"]["tabs"]]
+    assert "side_by_side" in tab_ids
+    assert "overlay_diff" in tab_ids
+    assert "change_report" in tab_ids
+    assert result.output["execution"]["status"] == "completed"
 
 def test_execute_rgco_comparison_no_changes():
     result = execute("rgco_comparison", {
